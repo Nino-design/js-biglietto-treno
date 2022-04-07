@@ -9,9 +9,9 @@ let journeyCost = userDistance * kmPrice;
 let finalCost;
 
 if(userAge < 18){
-    finalCost = Math.floor((journeyCost / 100) * 20); 
+    finalCost = journeyCost - Math.floor((journeyCost / 100) * 20); 
 }else if (userAge > 65) {
-    finalCost = Math.floor((journeyCost / 100) * 40);
+    finalCost = journeyCost - Math.floor((journeyCost / 100) * 40);
 } else {
     finalCost = journeyCost;
 }
