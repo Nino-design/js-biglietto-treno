@@ -1,0 +1,30 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*BODY*/
+
+body{
+    background-color: rgb(53, 53, 131);
+}
+
+/*H1*/
+
+h1{
+    font-size: 2em;
+    color: rgb(185, 134, 40);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
